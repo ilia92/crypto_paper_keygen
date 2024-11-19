@@ -30,28 +30,28 @@ Note: For better QR code logo rendering, make sure you have `cairosvg` installed
 
 Generate a new key:
 ```bash
-python3 keygen_gen.py --type eth
-python3 keygen_gen.py --type btc
+python3 crypto_keygen.py --type eth
+python3 crypto_keygen.py --type btc
 ```
 
 Generate key with QR codes and save to file:
 ```bash
-python3 keygen_gen.py --type eth --qr
-python3 keygen_gen.py --type btc --qr
+python3 crypto_keygen.py --type eth --qr
+python3 crypto_keygen.py --type btc --qr
 ```
 
 Generate multiple keys:
 ```bash
-python3 keygen_gen.py --type eth --multiply 3 --qr
+python3 crypto_keygen.py --type eth --multiply 3 --qr
 ```
 
 Decode existing private key:
 ```bash
 # For Ethereum (hex format)
-python3 keygen_gen.py --type eth --decode 1234567890abcdef... --qr
+python3 crypto_keygen.py --type eth --decode 1234567890abcdef... --qr
 
 # For Bitcoin (WIF format)
-python3 keygen_gen.py --type btc --decode 5KQNQz2k... --qr
+python3 crypto_keygen.py --type btc --decode 5KQNQz2k... --qr
 ```
 
 ### Command Line Arguments
