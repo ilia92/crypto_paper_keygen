@@ -12,17 +12,14 @@ A Python-based tool for generating and decoding cryptocurrency private keys, wit
 - Compatible with both Ethereum and Bitcoin
 - Supports compressed and uncompressed Bitcoin addresses
 
-## Installation
+## Prerequisites
 
-1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd crypto-keygen
+pip install -r requirements.txt
 ```
 
-2. Install required dependencies:
 ```bash
-pip install eth-keys bitcoin-utils pillow qrcode cairosvg
+sudo apt-get install libcairo2-dev pkg-config python3-dev
 ```
 
 Note: For better QR code logo rendering, make sure you have `cairosvg` installed. If not available, the script will fall back to a simple circle logo.
@@ -90,7 +87,7 @@ When using the `--qr` option, the tool will create:
 
 ## License
 
-[Specify your license here]
+N/A
 
 ## Contributing
 
