@@ -1,0 +1,7 @@
+<svg viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="32" fill="#627EEA"/>
+  <path d="M32 8l-.3.9v31.8l.3.3 14.8-8.7L32 8z" fill="#FFFFFF" fill-opacity="0.6"/>
+  <path d="M32 8L17.2 32.3l14.8 8.7V8z" fill="#FFFFFF"/>
+  <path d="M32 44.8l-.2.2v11.3l.2.6 14.8-20.8L32 44.8z" fill="#FFFFFF" fill-opacity="0.6"/>
+  <path d="M32 56.9v-12.1l-14.8-8.7L32 56.9z" fill="#FFFFFF"/>
+</svg>
